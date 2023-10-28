@@ -37,26 +37,11 @@
     <None Include="gui.fbp">
       <Filter>Исходные файлы</Filter>
     </None>
-    <None Include="tsnsoft.xpm">
-      <Filter>Файлы ресурсов</Filter>
-    </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="screenshot1.jpg">
+    <ResourceCompile Include="resource.rc">
       <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="screenshot2.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="screenshot3.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="screenshot4.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="screenshot5.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

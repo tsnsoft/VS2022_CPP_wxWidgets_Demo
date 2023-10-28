@@ -22,11 +22,8 @@ bool MainApp::OnInit() {
 
 MainFrame::MainFrame(wxWindow* parent)
 	: MainFrameBase(parent) {
-	wxString icon = wxT("tsnsoft.xpm");
-	if (wxFindFirstFile(icon) != "") {
-		wxInitAllImageHandlers();
-		this->SetIcon(wxIcon(icon, wxBITMAP_TYPE_XPM));
-	}
+	wxInitAllImageHandlers();
+	this->SetIcon(wxICON(MAIN_ICON));
 }
 
 MainFrame::~MainFrame() {
