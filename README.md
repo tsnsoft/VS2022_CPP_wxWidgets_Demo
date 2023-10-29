@@ -26,3 +26,8 @@ $(wxwin)\lib\vc_lib
 ```
 $(wxwin)\lib\vc_x64_lib
 ```
+**Для запуска на другом компьютере там сперва нужно установить MS Visual C++ Redistributable packages:**
+
+*Для x32-программ:* https://aka.ms/vs/17/release/vc_redist.x86.exe
+
+*Для x64-программ:* https://aka.ms/vs/17/release/vc_redist.x64.exe
